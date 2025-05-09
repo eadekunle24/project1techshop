@@ -4,9 +4,9 @@ export default function Pricing() {
   const [showMore, setShowMore] = useState(false);
 
   return (
-    <section id="pricing" className="bg-white text-dark text-center" data-aos="fade-up">
+    <section id="pricing" className="bg-white text-dark text-center py-5 px-3">
       <div className="container">
-        <h2 className="mb-4 fw-bold">Service Pricing</h2>
+        <h2 className="mb-4 fw-bold" data-aos="fade-up">Service Pricing</h2>
         <div className="table-responsive">
           <table className="table table-bordered table-hover align-middle shadow-sm">
             <thead className="table-light">

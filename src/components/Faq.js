@@ -2,13 +2,13 @@ import React from 'react';
 
 export default function Faq() {
   return (
-    <section id="faq" className="bg-white text-dark" data-aos="fade-up">
+    <section id="faq" className="bg-white text-dark py-5 px-3">
       <div className="container">
-        <h2 className="mb-4 fw-bold text-center">Frequently Asked Questions</h2>
+        <h2 className="mb-4 fw-bold text-center" data-aos="fade-up">Frequently Asked Questions</h2>
         <div className="accordion" id="faqAccordion">
           {[
             ['How long do most repairs take?', 'Most common repairs are completed within 1–2 hours. More complex issues may take longer.'],
-            ['Do you repair water-damaged devices?', 'Yes, we do — and we’ll give you a no-obligation quote before proceeding.'],
+            ['Do you repair water-damaged devices?', 'Yes, and we’ll provide a no-obligation quote before repair.'],
             ['Do I need an appointment?', 'Walk-ins are welcome, but appointments guarantee faster service.']
           ].map(([q, a], i) => (
             <div className="accordion-item border-0 mb-3" key={i}>
