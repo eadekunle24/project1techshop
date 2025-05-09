@@ -13,7 +13,7 @@ export default function Hero() {
         color: '#1e1e1e'
       }}
     >
-      <h1 className="fw-bold mb-3 display-5">ByteFix Tech Repairs</h1>
+      <h1 className="fw-bold mb-3 fs-1">ByteFix Tech Repairs</h1>
       <p className="lead text-secondary mb-4" style={{ maxWidth: '600px' }}>
         Fast, friendly service to keep your devices running smoothly — phones, laptops, PCs, and more.
       </p>
